@@ -2,7 +2,14 @@
 logs
 *.log
 npm-debug.log*
+logs/*
+!.gitkeep
+node_modules/
+bower_components/
+tmp
 
+.DS_Store
+.idea
 # Runtime data
 pids
 *.pid
